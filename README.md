@@ -39,7 +39,6 @@ MPMは粒子法と格子法の強みを統合した先進的なシミュレー�
 ---
 
 ## プロジェクト説明
-*mpm.py*と*stencil.py*はそれぞれが独立したものとなっており，異なるシミュレーションになっています．*stencil.py*では，MPMの無駄な計算を省くための改良を行い，実行速度が高性能化されています．しかし，基本的な実行結果は同じです．
 
 ### シミュレーション内容・実行例
 以下にプロジェクトの実行例を示します．
@@ -59,23 +58,26 @@ MPMは粒子法と格子法の強みを統合した先進的なシミュレー�
 Download freeglut from [GitHub - freeglut](https://github.com/freeglut/freeglut).
 Download Eigen from the [Eigen official website](https://eigen.tuxfamily.org/index.php?title=Main_Page).
 
+---
+
 ## 参考文献
-Alexey Stomakhin, Craig Schroeder, Lawrence Chai, Joseph Teran, and Andrew Selle. [A
+・Alexey Stomakhin, Craig Schroeder, Lawrence Chai, Joseph Teran, and Andrew Selle. [A
 material point method for snow simulation](https://dl.acm.org/doi/10.1145/2461912.2461948). ACM Transactions on Graphics (TOG), Vol. 32,
 No. 4, pp. 1–10, 2013.
 
-Francis H Harlow. The particle-in-cell computing method for fluid dynamics. 1964.
+・Francis H Harlow. The particle-in-cell computing method for fluid dynamics. 1964.
 
-Jeremiah U Brackbill and Hans M Ruppel. Flip: A method for adaptively zoned, particlein-cell calculations of fluid flows in two dimensions. Journal of Computational physics,
+・Jeremiah U Brackbill and Hans M Ruppel. Flip: A method for adaptively zoned, particlein-cell calculations of fluid flows in two dimensions. Journal of Computational physics,
 Vol. 65, No. 2, pp. 314–343, 1986.
 
-Yongning Zhu and Robert Bridson. Animating sand as a fluid. ACM Transactions on
+・Yongning Zhu and Robert Bridson. Animating sand as a fluid. ACM Transactions on
 Graphics (TOG), Vol. 24, No. 3, pp. 965–972, 2005.
 
-Deborah Sulsky, Shi-Jian Zhou, and Howard L Schreyer. Application of a particle-in-cell
+・Deborah Sulsky, Shi-Jian Zhou, and Howard L Schreyer. Application of a particle-in-cell
 method to solid mechanics. Computer physics communications, Vol. 87, No. 1-2, pp. 236–
 252, 1995.
 
+---
 
 ## License
 This project is released under the MIT License.
