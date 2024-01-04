@@ -43,7 +43,7 @@ MPMは粒子法と格子法の強みを統合した先進的なシミュレー�
 
 ### シミュレーション内容・実行例
 以下にプロジェクトの実行例を示します．
-本プロジェクトでは，MPMの基本的な2次元シミュレーションを行うために，物体の自由落下という状況を想定しています．また，そのほかにも力のかかる向きを任意の方向に変化させることも可能です．
+本プロジェクトでは，MPMの基本的な2次元シミュレーションを行うために，雪玉を模した物体を自由落下させる状況を想定しています．
 
 実行画面にある通り，物体を点の集合を表し，自由落下をシミュレーションしています．
 
@@ -56,8 +56,26 @@ MPMは粒子法と格子法の強みを統合した先進的なシミュレー�
 #### Eigenライブラリについて
 数値計算の部分では、Eigenライブラリを利用しています。Eigenは、C++言語のための高レベルな数学ライブラリで、特に線形代数の計算に強みを持っています。行列計算、ベクトル演算、数値解法などの機能を提供し、これらはグラフィックスや物理シミュレーションにおいて重要な役割を果たします。Eigenを使用することで、コードの効率と精度が向上し、複雑な数学的演算を簡潔かつ直感的に記述することができます。
 
-Download freeglut from GitHub - freeglut.
-Download Eigen from the Eigen official website.
+Download freeglut from [GitHub - freeglut](https://github.com/freeglut/freeglut).
+Download Eigen from the [Eigen official website](https://eigen.tuxfamily.org/index.php?title=Main_Page).
+
+## 参考文献
+Alexey Stomakhin, Craig Schroeder, Lawrence Chai, Joseph Teran, and Andrew Selle. [A
+material point method for snow simulation](https://dl.acm.org/doi/10.1145/2461912.2461948). ACM Transactions on Graphics (TOG), Vol. 32,
+No. 4, pp. 1–10, 2013.
+
+Francis H Harlow. The particle-in-cell computing method for fluid dynamics. 1964.
+
+Jeremiah U Brackbill and Hans M Ruppel. Flip: A method for adaptively zoned, particlein-cell calculations of fluid flows in two dimensions. Journal of Computational physics,
+Vol. 65, No. 2, pp. 314–343, 1986.
+
+Yongning Zhu and Robert Bridson. Animating sand as a fluid. ACM Transactions on
+Graphics (TOG), Vol. 24, No. 3, pp. 965–972, 2005.
+
+Deborah Sulsky, Shi-Jian Zhou, and Howard L Schreyer. Application of a particle-in-cell
+method to solid mechanics. Computer physics communications, Vol. 87, No. 1-2, pp. 236–
+252, 1995.
+
 
 ## License
 This project is released under the MIT License.
