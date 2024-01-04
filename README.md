@@ -46,7 +46,7 @@ MPMは粒子法と格子法の強みを統合した先進的なシミュレー�
 
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](img/simulation_result1.png)
 
-![実行結果2](img/simulation_result2.png)
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](img/simulation_result2.png)
 
 実行画面にある通り，物体を点の集合を表し，自由落下をシミュレーションしています．
 
