@@ -44,7 +44,8 @@ MPMは粒子法と格子法の強みを統合した先進的なシミュレー�
 以下にプロジェクトの実行例を示します．
 本プロジェクトでは，MPMの基本的な2次元シミュレーションを行うために，雪玉を模した物体を自由落下させる状況を想定しています．
 
-![実行結果1](img/simulation_result1.png)
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](img/simulation_result1.png)
+
 ![実行結果2](img/simulation_result2.png)
 
 実行画面にある通り，物体を点の集合を表し，自由落下をシミュレーションしています．
