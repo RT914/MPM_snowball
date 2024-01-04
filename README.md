@@ -47,13 +47,17 @@ MPMは粒子法と格子法の強みを統合した先進的なシミュレー�
 
 実行画面にある通り，物体を点の集合を表し，自由落下をシミュレーションしています．
 
-## インストールと使用法
-本プロジェクトでは，Pythonベースのプログラミング言語とフレームワークであり、高性能な数値計算と物理シミュレーションを行うために設計された*Taichi*を使用します．*Taichi*は、GPUを活用して高速なシミュレーションや視覚化を行うことができることが特徴です．
-https://github.com/taichi-dev/taichi
+## 使用技術：OpenGL、freeglut、Eigen
+### OpenGLとfreeglutについて
+このプロジェクトでは、OpenGL（Open Graphics Library）をグラフィックスレンダリングの主要なAPIとして使用しています。OpenGLは、2Dおよび3Dベクターグラフィックスを生成するためのクロスプラットフォームの仕様です。これにより、高度なグラフィックス描画機能を提供し、ハードウェアアクセラレーションを利用することが可能になります。
 
-```
-pip install taichi
-```
+さらに、OpenGLの機能を簡単に扱うために、freeglutライブラリを使用しています。freeglutは、GLUT（OpenGL Utility Toolkit）のオープンソース実装であり、ウィンドウの作成、入力処理、イベントハンドリングなどの基本的なシステム関連機能を提供します。freeglutの使用により、OpenGLプログラムの開発が容易になり、クロスプラットフォームでの互換性が向上します。
+
+### Eigenライブラリについて
+数値計算の部分では、Eigenライブラリを利用しています。Eigenは、C++言語のための高レベルな数学ライブラリで、特に線形代数の計算に強みを持っています。行列計算、ベクトル演算、数値解法などの機能を提供し、これらはグラフィックスや物理シミュレーションにおいて重要な役割を果たします。Eigenを使用することで、コードの効率と精度が向上し、複雑な数学的演算を簡潔かつ直感的に記述することができます。
+
+Download freeglut from GitHub - freeglut.
+Download Eigen from the Eigen official website.
 
 ## License
 This project is released under the MIT License.
