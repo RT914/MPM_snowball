@@ -3,8 +3,8 @@
 
 ## Computer Graphics
 コンピュータグラフィックス（CG）は、コンピュータを使用して映像や画像を生成する技術分野です。CGの主要な要素には、レンダリング、モデリング、物理シミュレーション、モーション、アニメーションなどがあります。これらの要素は相互に関連し合いながら、リアルタイムのビデオゲームから映画の特殊効果に至るまで、幅広いアプリケーションに利用されています。
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://github.com/RT914/MPM_snowball/img/smoke.png)
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://github.com/RT914/MPM_snowball/img/fluid.png)
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](img/smoke.png)
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](img/fluid.png)
 
 ### レンダリング
 レンダリングは、3Dモデルやシーンを2Dイメージや映像に変換するプロセスです．このプロセスには、ライティング、テクスチャリング、シャドウ、反射などの視覚的効果が含まれ、最終的なイメージをリアルまたはスタイリッシュに見せるために重要です．
