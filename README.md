@@ -61,6 +61,9 @@ Download freeglut from [GitHub - freeglut](https://github.com/freeglut/freeglut)
 
 Download Eigen from the [Eigen official website](https://eigen.tuxfamily.org/index.php?title=Main_Page).
 
+## 今後
+今後は雪以外の材質を適応し、より複雑なシミュレーションの開発予定です。
+
 ---
 
 ## 参考文献
